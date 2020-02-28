@@ -1,4 +1,4 @@
 const obj = {
-    version: 1
+    version: 2
 }
 export default obj;
