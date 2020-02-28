@@ -1,5 +1,5 @@
 {
-    "name": "fly-npm",
+    "name": "fly-use-npm",
     "version": "2.0.0",
     "description": "测试 npm依赖冲突",
     "main": "index.js",
@@ -7,6 +7,12 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.com/"
+    },
     "author": "张攀钦",
-    "license": "ISC"
+    "license": "ISC",
+    "dependencies": {
+        "fly-npm": "2.0.0"
+    }
 }
