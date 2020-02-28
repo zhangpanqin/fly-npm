@@ -1,0 +1,11 @@
+{
+    "name": "fly-npm",
+    "version": "1.0.0",
+    "description": "测试 npm依赖冲突",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "张攀钦",
+    "license": "ISC"
+}
